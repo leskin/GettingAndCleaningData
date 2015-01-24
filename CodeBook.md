@@ -1,5 +1,4 @@
-#### Data Dictionary for Mean and Standard Deviation 
-#### Samsung Galaxy S Smartphone Measurements
+#### Data Dictionary for the Mean and Standard Deviation Measurements from the Samsung Galaxy S Smartphone
 ####
 
 Column Number | Column Name | Units         | Measurement Description

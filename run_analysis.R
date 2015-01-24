@@ -86,15 +86,18 @@ samsungTotal <- rbind(samsungTrain, samsungTest)
 str(samsungTotal)
 summary(samsungTotal)
 
-# Next we subset out only the columns that are a mean (contain mean in the name) or standard deviation (contain std in the name) measurement
+# Next we subset out only the columns that are a mean measurement (contain mean in the name) or standard deviation measurement (contain std in the name)
 
 samsungMeanStdTotal <- samsungTotal[,grepl("mean", names(samsungTotal)) | grepl("Mean", names(samsungTotal)) | grepl("std", names(samsungTotal)) | names(samsungTotal) == "activity" | names(samsungTotal) == "subject"]
 str(samsungMeanStdTotal)
 summary(samsungMeanStdTotal)
 
-# and lastly, we use the dplyr package to calculate the average for each measurement for each activity for each subject
+# and we use the dplyr package to calculate the average for each measurement for each activity for each subject
 # and place the results in a new tidy data frame
 
 library(dplyr)
 samsungMeasurementAvgBySubjectAndActivity <- samsungMeanStdTotal %>% group_by(subject,activity) %>% summarise_each(funs(mean))
 
+# lastly, the new tidy data frame with the averages for each activity for each subject are exported to a .txt file 
+
+write.table(samsungMeasurementAvgBySubjectAndActivity, file = "samsungMeasurementAvgBySubjectAndActivity.txt", row.name=FALSE)
