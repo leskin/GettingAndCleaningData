@@ -63,27 +63,27 @@ Column Number | Column Name          | Measurement Description
 58 | fBodyAccJerk.meanFreq.X | weighted average mean frequency domain body acceleration time derivative in the X direction
 59 | fBodyAccJerk.meanFreq.Y | weighted average mean frequency domain body acceleration time derivative in the Y direction
 60 | fBodyAccJerk.meanFreq.Z | weighted average mean frequency domain body acceleration time derivative in the Z direction
-61 | fBodyGyro.mean.X 
-62 | fBodyGyro.mean.Y 
-63 | fBodyGyro.mean.Z 
-64 | fBodyGyro.std.X 
-65 | fBodyGyro.std.Y 
-66 | fBodyGyro.std.Z 
-67 | fBodyGyro.meanFreq.X 
-68 | fBodyGyro.meanFreq.Y 
-69 | fBodyGyro.meanFreq.Z 
-70 | fBodyAccMag.mean 
-71 | fBodyAccMag.std 
-72 | fBodyAccMag.meanFreq 
-73 | fBodyBodyAccJerkMag.mean 
-74 | fBodyBodyAccJerkMag.std 
-75 | fBodyBodyAccJerkMag.meanFreq 
-76 | fBodyBodyGyroMag.mean 
-77 | fBodyBodyGyroMag.std 
-78 | fBodyBodyGyroMag.meanFreq 
-79 | fBodyBodyGyroJerkMag.mean 
-80 | fBodyBodyGyroJerkMag.std 
-81 | fBodyBodyGyroJerkMag.meanFreq 
+61 | fBodyGyro.mean.X | mean frequency domain body angular velocity in the X direction
+62 | fBodyGyro.mean.Y | mean frequency domain body angular velocity in the Y direction
+63 | fBodyGyro.mean.Z | mean frequency domain body angular velocity in the Z direction
+64 | fBodyGyro.std.X | standard deviation of the frequency domain body angular velocity in the X direction
+65 | fBodyGyro.std.Y | standard deviation of the frequency domain body angular velocity in the Y direction
+66 | fBodyGyro.std.Z | standard deviation of the frequency domain body angular velocity in the Z direction
+67 | fBodyGyro.meanFreq.X | weighted average mean frequency domain body angular velocity in the X direction
+68 | fBodyGyro.meanFreq.Y | weighted average mean frequency domain body angular velocity in the Y direction
+69 | fBodyGyro.meanFreq.Z | weighted average mean frequency domain body angular velocity in the Z direction
+70 | fBodyAccMag.mean | mean frequency domain body acceleration magnitude
+71 | fBodyAccMag.std | standard deviation of the frequency domain body acceleration magnitude
+72 | fBodyAccMag.meanFreq | weighted average mean frequency domain body acceleration magnitude
+73 | fBodyBodyAccJerkMag.mean | mean frequency domain body acceleration magnitude time derivative
+74 | fBodyBodyAccJerkMag.std | standard deviation of the frequency domain body acceleration magnitude time derivative
+75 | fBodyBodyAccJerkMag.meanFreq | weighted average mean frequency domain body acceleration magnitude time derivative
+76 | fBodyBodyGyroMag.mean | mean frequency domain angular velocity magnitude
+77 | fBodyBodyGyroMag.std | standard deviation of the frequency domain angular velocity magnitude
+78 | fBodyBodyGyroMag.meanFreq | weighted average mean frequency domain angular velocity magnitude
+79 | fBodyBodyGyroJerkMag.mean | mean frequency domain angular velocity magnitude time derivative
+80 | fBodyBodyGyroJerkMag.std | standard deviation of the frequency domain angular velocity magnitude time derivative
+81 | fBodyBodyGyroJerkMag.meanFreq | weighted average mean frequency domain angular velocity magnitude time derivative
 82 | angle_between_tBodyAccMean_and_gravity 
 83 | angle_between_tBodyAccJerkMean_and_gravityMean 
 84 | angle_between_tBodyGyroMean_and_gravityMean 
