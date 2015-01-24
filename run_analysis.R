@@ -16,7 +16,7 @@
 # International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 #
 #
-# Course Assignment:
+# Course Project Assignment Summary:
 #
 # You should create one R script called run_analysis.R that does the following. 
 # 1) Merges the training and the test sets to create one data set.
