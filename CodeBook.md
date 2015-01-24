@@ -1,5 +1,8 @@
-#### Data Dictionary for the Mean and Standard Deviation Measurements from the Samsung Galaxy S Smartphone
-####
+### Data Dictionary for the Mean and Standard Deviation Measurements from the Human Activity Recognition Using Smartphones Dataset[1] Version 1.0  Averaged and Summarized by Activity and by Subject
+#### Data file name: samsungMeasurementAvgBySubjectAndActivity.txt
+#### Note: See run_analysis.R script file for data wrangling details.
+#### Reference:
+##### [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 Column Number | Column Name | Units         | Measurement Description
 --------------|-------------|---------------|-------------
