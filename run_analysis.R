@@ -1,7 +1,23 @@
-# Here are the data for the project: 
-
+#
+# This R script file is part of the Course Project for the Getting and Cleaning Data Coursera Course
+#
+# The purpose of the script file is to manipulate the original data from the Human Activity Recognition Using Smartphones Dataset[1] Version 1.0, 
+# to extract each variable which measures the mean or standard deviation for each measurement, 
+# and to create a text file which contains the average of each variable for each activity and each subject.
+#
+# The data files for the Course Project were downloaded from the following URL, which was setup for this class:
+#
 #  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
+#
+# References:
+#
+# [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
+# Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. 
+# International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+#
+#
+# Course Assignment:
+#
 # You should create one R script called run_analysis.R that does the following. 
 # 1) Merges the training and the test sets to create one data set.
 # 2) Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -9,14 +25,13 @@
 # 4) Appropriately labels the data set with descriptive variable names. 
 # 5) From the data set in step 4, creates a second, independent tidy data set with the 
 #    average of each variable for each activity and each subject.
-
 #
-# This code assumes that the working directory in RStudio is set to the
+#
+# This script file code assumes that the working directory in RStudio is set to the
 # directory in which the Coursera data zip file was extracted.
 #
-
 #
-# Begin by reading in the various .txt data files into data frames in R
+# Begin by reading in the various .txt data files into separate data frames in R
 #
 samsungActivityLabels <- read.table("UCI HAR Dataset/activity_labels.txt")
 table(samsungActivityLabels)
